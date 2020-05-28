@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+    <h1> Daily Journal </h1>
+        <form action="">
+            
+            <fieldset>
+            <div class="block">
+                <label for = "journalDate">Date of entry</label> 
+                <input type="date" name="journalDate" id="journalDate">
+            </div>
+            <br>
+            <div class="block">
+                <label for= "conceptsCovered"> Concepts covered</label>
+                <input type="text" name="conceptsCovered" id="conceptsCovered">
+            </div>
+            <br>
+            <div class="block">
+                <label for ="journalEntry"> Journal entry</label>
+            </div>
+                <textarea name="journalEntry" cols="100" rows="20"> Hot Topics</textarea>
+                <br>
+            <div class="block">
+                <br>
+                <label for="moodForTheDay"> Mood for the day</label>
+                <select name ="moodForTheDay">
+                    <option value ="sad">Sad</option>
+                    <option value = "frustrated"> Frustrated</option>
+                    <option value = "confused"> Confused</option>
+                    <option value = "excited"> Excited </option>
+                    <option value = "happy"> Happy </option>
+                </select>
+                <div class="block">
+                <br>
+                <button> Record Journal Entry </button> 
+                </div>
+            </fieldset>
+            
+        </form>
+        <div class="dropholder">
+  <p>HELLO</p>
+  <div class="dropdown">
+    <p><i class="fa fa-foursquare"></i>WELCOME</p>
+  </div>
+  <ul class="menu">
+    <li><i class="fa fa-thumbs-down"></i> Sad</li>
+    <li><i class="fa fa-thumbs-up"></i> Frustrated</li>
+    <li><i class="fa fa-bolt"></i> Confused</li>
+    <li><i class="fa fa-star"></i> Excited</li>
+    <li><i class="fa fa-heart"></i> Happy</li>
+  </ul>
+</div>
+    
+</body>
+</html>

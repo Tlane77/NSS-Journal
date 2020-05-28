@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>formDemo.html</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="nss.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>NSS Journal</h1>
+    <form>
+      <fieldset>
+        <legend>Journal Entries</legend>
+        <p>
+          <label>Weekly Journal</label>
+          <input type = "text"
+                 id = "myText"
+                 value = "text here" />
+        </p>
+        <p>
+          <label>Text Area</label>
+          <input> type = "myTextArea"
+                  id = "myTextArea"
+                  
+        </p>
+        <p>
+          <label>Text Area</label>
+          <textarea> id = "myTextArea"
+                  rows = "3"
+                  cols = "80">Your text here</textarea>
+        </p>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>My Moods</legend>
+        <p>
+          <label>Current Mood</label>
+          <select id="myList">
+            <option value="1"> Sad</option>
+            <option value="2"> Fustrated</option>
+            <option value="3"> Confused</option>
+            <option value="4"> Excited</option>
+          </select>
+        </p>
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <label for="Concepts">Concepts Covered</label>
+        <input type="text" name="concepts" id="concepts">
+      </fieldset>
+    
+    <div class="dropholder">
+  <p> HELLO </p>
+  <div class="dropdown">
+    <p><i class="fa fa-foursquare"></i> Welcome! </p>
+  </div>
+  <ul class="menu">
+    <li><i class="fa fa-thumbs-down"></i> Sad</li>
+    <li><i class="fa fa-thumbs-up"></i> Excited</li>
+    <li><i class="fa fa-bolt"></i> Glorious</li>
+    <li><i class="fa fa-star"></i> Content</li>
+    <li><i class="fa fa-heart"></i> Curious</li>
+  </ul>
+</div>
+<form action="/action_page.php">
+  <label for="Date">Date</label><br>
+  <input type="text" id="date" name="Date" value="5/24/20"><br>
+  <label for="Current Moods">Last name:</label><br>
+  <input type="text" id="mood" name="mood" value="Happy"><br><br>
+  <input type="Journal Entry" value="Entry">
+</form> 
+
+<button class="w3-button w3-hover-purple">Entry</button>
+
+<p>If you click the "Entry" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</form>
+    </body>
+</html>
+    
+  
