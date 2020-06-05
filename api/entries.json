@@ -1,0 +1,67 @@
+{
+  "journalEntry": [
+    {
+      "id": "1",
+      "date": "05-22-20",
+      "concepts": "HTML Article/Section Concepts",
+      "content": "Info Covered",
+      "mood": "Marvelous"
+    },
+
+    {
+      "id": "2",
+      "date": "05-23-20",
+      "concepts": "Martin Concepts ",
+      "content": "Applying Values to a Function",
+      "mood": "Curious"
+    },
+
+    {
+      "id": "3",
+      "date": "05-24-20",
+      "concepts": "Function Concepts",
+      "content": "Bowing our ",
+      "mood": "Mood of the Day"
+    },
+
+    {
+      "id": "4",
+      "date": "05-25-20",
+      "concepts": "Brain Bending Concepts",
+      "content": "How to push yourself",
+      "mood": "Perplexed"
+    },
+
+    {
+      "id": "5",
+      "date": "05-26-20",
+      "concepts": "Concepts Covered",
+      "content": "Info Covered",
+      "mood": "Mood of the Day"
+    },
+
+    {
+      "id": "6",
+      "date": "05-27-20",
+      "concepts": "Concepts Covered",
+      "content": "Info Covered",
+      "mood": "Mood of the Day"
+    },
+
+    {
+      "id": "7",
+      "date": "05-28-20",
+      "concepts": "Concepts Covered",
+      "content": "Info Covered",
+      "mood": "Mood of the Day"
+    },
+
+    {
+      "id": "8",
+      "date": "05-29-20",
+      "concepts": "Concepts Covered",
+      "content": "Info Covered",
+      "mood": "Mood of the Day"
+    }
+  ]
+}

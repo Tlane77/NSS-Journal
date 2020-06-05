@@ -1,113 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible"
-          content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Daily Journal</title>
     <!-- Links to CSS -->
-    <link rel="stylesheet"
-          type="text/css"
-          media="screen"
-          href="./styles/main.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./styles/main.css"
+    />
+  </head>
 
-
-</head>
-
-<body>
-    <h1> Daily Journal </h1>
+  <body>
+    <h1>Daily Journal</h1>
     <!-- W3School ACTION FORM -->
     <form action="">
+      <fieldset>
+        <div class="block">
+          <!-- W3S Calender Block (Date & Time) -->
+          <label for="Date">Date of Entry</label>
+          <input type="date" name="Date" id="Date" />
+        </div>
+        <br />
+        <div class="block">
+          <label for="ConceptsCovered"> Concepts Covered</label>
+          <input type="text" name="ConceptsCovered" id="ConceptsCovered" />
+        </div>
+        <br />
         <article class="entryLog">
-
-        <fieldset>
-            <div class="block">
-                <!-- W3S Calender Block (Date & Time) -->
-                <label for="Date">Date of Entry</label>
-                <input type="date"
-                       name="Date"
-                       id="Date">
-            </div>
-            <br>
-            <div class="block">
-                <label for="ConceptsCovered"> Concepts Covered</label>
-                <input type="text"
-                       name="ConceptsCovered"
-                       id="ConceptsCovered">
-            </div>
-            <br>
-            <article class="entryLog">
-
-
-                <div class="block">
-                    <label for="JournalEntry"> Journal Entry</label>
-                </div>
-                <textarea name="journalEntry"
-                          cols="100"
-                          rows="20">Daily Entry</textarea>
-                <br>
-            </article>
-            <div class="block">
-                <br>
-                <label for="Mood">Today's Mood</label>
-                <select name="Mood">
-                    <option value="Happy"> Happy</option>
-                    <option value="Driven"> Driven</option>
-                    <option value="Perplexed"> Perplexed</option>
-                    <option value="Excited"> Excited </option>
-                    <option value="Magnificient"> Magnificient </option>
-                </select>
-                <div class="block">
-                    <br>
-                    <button> Record Journal Entry </button>
-                </div>
-            </div>
-        </fieldset>
-</article>
- </form>
-    <article>
-        <section>
-
-            <form action="">
-
-                <fieldset>
-                    <div class="block">
-                        <div class="dropholder">
-                            <p>WELCOME</p>
-                            <div class="dropdown">
-                                <p><i class="fa fa-foursquare"></i>Have a Look Around</p>
-                               
-                                <ul class="menu">
-                                    <li><i class="fa fa-thumbs-down"></i> Hungry</li>
-                                    <li><i class="fa fa-thumbs-up"></i> Mischievous</li>
-                                    <li><i class="fa fa-bolt"></i> Enlightened</li>
-                                    <li><i class="fa fa-star"></i> Ablaze</li>
-                                    <li><i class="fa fa-heart"></i> Unstoppable</li>
-                                </ul>
-                            </div>
-
-                            <div class="block">
-                                <br>
-                                <button> Mood Swing </button>
-
-                            </div>
-                         </div>
-                    </div>
-
-                </fieldset>
-
-
-            </form>
-        </section>
-
-    </article>
+          <div class="block">
+            <label for="JournalEntry"> Journal Entry</label>
+          </div>
+          <textarea name="journalEntry" cols="100" rows="20">
+Daily Entry</textarea
+          >
+          <br />
+        </article>
+        <div class="block">
+          <br />
+          <label for="Mood">Today's Mood</label>
+          <select name="Mood">
+            <option value="Happy"> Happy</option>
+            <option value="Driven"> Driven</option>
+            <option value="Perplexed"> Perplexed</option>
+            <option value="Excited"> Excited </option>
+            <option value="Magnificient"> Magnificient </option>
+          </select>
+          <div class="block">
+            <br />
+            <button>Record Journal Entry</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <article class="entryLog"></article>
 
     <script src="scripts/journal.js"></script>
-    
-
-</body>
-
+    <script src="scripts/journalData.js"></script>
+    <script src="scripts/journalList.js"></script>
+  </body>
 </html>
