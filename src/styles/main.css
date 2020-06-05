@@ -74,18 +74,18 @@ p{
   position: absolute;
   right:0;
   top:70px;
-  width: 228px;
-  cursor: pointer;
-  opacity:0;
-  transform-style: preserve-3d;
-  transform:rotatey(180deg) rotateX(5deg) translatey(100px);
-  backface-visibility: hidden;
   background:linear-gradient(#4dc2f8 ,#0d82b9);
   border:2px solid #0d82b9;
   border-radius:10px;
   transition:all 0.8s;
   z-index:5;
   overflow:hidden;
+  width: 228px;
+  cursor: pointer;
+  opacity:0;
+  transform-style: preserve-3d;
+  transform:rotateY(180deg) rotateX(5deg) translateY(100px);
+  backface-visibility: hidden;
 }
 .menu li{
   padding: 10px 10px;
@@ -103,7 +103,7 @@ p{
 
 .showMenu{
    opacity:1;
-  transform:rotateX(0deg) translatey(0px);
+  transform:rotateX(0deg) translateY(0px);
 }
 li > i{
   float: left;
@@ -112,10 +112,16 @@ li > i{
 }
 p > i{
  position: relative;
- top:2px;
+ top:3px;
 }
 i{
-  opacity: 0.7;
+  opacity: 0.6;
+}
+input.btn {
+    background-color: pink;
+}
+input.btn:active {
+    background-color: antiquewhite;
 }
 @keyframes move{
   0%, 100%{transform:translateY(-10px);}
