@@ -8,7 +8,7 @@ import createJournalEntry from "./createEntry.js";
 
 API.getJournalEntries().then((response) => journalEntryList(response));
 
-document.querySelector;
+
 
 
 const submitButton = document.querySelector("#save")
@@ -31,13 +31,13 @@ submitButton.addEventListener("click", e => {
     alert("Please Insert Journal Entry Data Before Submitting")
 
   } else {
-    const newEntry = createJournalEntry(date, concepts, content, mood);
-    journalAPI.saveJournalEntry(newEntry).then(() => {
-      return journalAPI.getJournalEntries()
-    }).then((journalObj) => {
-      return newJournalEntry.journalEntryConverter(journalObj)
-    })
-  }
+    const newEntry = createJournalEntry(Date, ConceptsCovered, content, mood);
+    API.saveJournalEntry(newEntry)
+      .then((response) => {
+        API.getJournalEntries().then((response) => journalEntryList(response));
+        
+      })
+    }
 })   
 
 

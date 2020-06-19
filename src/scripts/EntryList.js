@@ -1,5 +1,7 @@
 import makeJournalEntryComponent from "./entryComponent.js"
 
+
+// const entryContainer = document.querySelector("#entryContainer");
 const journalEntryList = (journalEntries) => {
 
     

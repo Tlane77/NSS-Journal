@@ -7,7 +7,6 @@
       "content": "Info Covered",
       "mood": "Marvelous"
     },
-
     {
       "id": "2",
       "date": "05-23-20",
@@ -15,7 +14,6 @@
       "content": "Applying Values to a Function",
       "mood": "Curious"
     },
-
     {
       "id": "3",
       "date": "05-24-20",
@@ -23,7 +21,6 @@
       "content": "Functions inside of Objects ",
       "mood": "Excited"
     },
-
     {
       "id": "4",
       "date": "05-25-20",
@@ -31,7 +28,6 @@
       "content": "How to push yourself",
       "mood": "Perplexed"
     },
-
     {
       "id": "5",
       "date": "05-26-20",
@@ -39,7 +35,6 @@
       "content": "Info Covered on how to create multiple arrays",
       "mood": "Curious"
     },
-
     {
       "id": "6",
       "date": "05-27-20",
@@ -47,7 +42,6 @@
       "content": "Info Covered HTML and CSS",
       "mood": "Mood of the Day"
     },
-
     {
       "id": "7",
       "date": "05-28-20",
@@ -55,7 +49,6 @@
       "content": "Info Covered, javascript",
       "mood": "Perplexed"
     },
-
     {
       "id": "8",
       "date": "05-29-20",
@@ -63,7 +56,6 @@
       "content": "Info Covered",
       "mood": "Driven"
     },
-
     {
       "id": "9",
       "date": "06-01-20",
@@ -92,7 +84,7 @@
       "content": "array's inside of objects",
       "mood": "Curious"
     },
-     {
+    {
       "id": "13",
       "date": "06-05-20",
       "concepts": "Modals",
@@ -140,14 +132,20 @@
       "concepts": "Overview",
       "content": "Modules Chapter 3/Journal Database",
       "mood": "Marvelous"
+    },
+    {
+      "date": "2020-06-19",
+      "concepts": "Rabbits",
+      "content": "Rabbits all over the place",
+      "mood": "Perplexed",
+      "id": "M71YHUe"
+    },
+    {
+      "date": "2020-06-19",
+      "concepts": "The Delete Button",
+      "content": "Learning more C.R.U.D Steps",
+      "mood": "Perplexed",
+      "id": "4yojjrR"
     }
-
-
-
-
-
-
-
   ]
 }
-

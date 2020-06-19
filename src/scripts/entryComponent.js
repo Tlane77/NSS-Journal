@@ -14,8 +14,9 @@
 */
 const makeJournalEntryComponent= (journalEntry) => {
   const journalEntryHTMLRepresentation = `<section class="journal">
-       
+]
         <div class="journal__details">
+        
             <ul>
                 <li>Date: ${journalEntry.date}</li>
                 <li>Concepts: ${journalEntry.concepts}</li>
@@ -23,9 +24,11 @@ const makeJournalEntryComponent= (journalEntry) => {
                 <li>Mood: ${journalEntry.mood}</li>
                 
             </ul>
-        </div>
+       </div>
+    
     </section>`;
 
   return journalEntryHTMLRepresentation;
+  
 };
 export default makeJournalEntryComponent;
