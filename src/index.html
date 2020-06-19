@@ -33,8 +33,9 @@
         <article class="entryLog">
           <div class="block">
             <label for="JournalEntry"> Journal Entry</label>
+            
           </div>
-          <textarea name="journalEntry" cols="100" rows="20">
+          <textarea name="journalEntry" id="journalEntry" cols="100" rows="20">
 Daily Entry</textarea
           >
           <br />
@@ -42,7 +43,7 @@ Daily Entry</textarea
         <div class="block">
           <br />
           <label for="Mood">Today's Mood</label>
-          <select name="Mood">
+          <select name="Mood" id="Mood">
             <option value="Happy"> Happy</option>
             <option value="Driven"> Driven</option>
             <option value="Perplexed"> Perplexed</option>
@@ -51,15 +52,20 @@ Daily Entry</textarea
           </select>
           <div class="block">
             <br />
-            <button>Record Journal Entry</button>
+          <div class="submitEntryButton"></div>
+          <input type="submit" id="save" value="Record Journal Entry">
           </div>
         </div>
       </fieldset>
     </form>
+
+    
     <article class="entryLog"></article>
 
-    <script src="scripts/journal.js"></script>
-    <script src="scripts/journalData.js"></script>
-    <script src="scripts/journalList.js"></script>
+    <!-- <script type="module" src="scripts/journal.js"></script>
+    <script type="module" src="scripts/Data.js"></script>
+    <script type="module" src="scripts/journalList.js"></script>
+    <script type="module" src="scripts/entryComponent.js"></script> -->
+    <script type="module" src="scripts/journal.js"></script>
   </body>
 </html>
