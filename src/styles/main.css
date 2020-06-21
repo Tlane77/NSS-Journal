@@ -3,8 +3,14 @@ body{
   background-size:4px 4px;
   perspective: 400px;
   width: 100%;
-  height: 600px;
+  height: auto;
+  border-style: groove;
+  border-color: darkcyan;
 }
+
+/* .entryCard {
+	border: .2em solid black;
+} */
 .dropholder{
   width: 322px;
   height: 60px;
@@ -15,7 +21,8 @@ body{
   color: #fff;
   position: relative;
   box-sizing:border-box;
-  border:1px solid #9b0db9;
+  border:3px solid #9b0db9;
+  border-style: hidden;
   animation: move 3s ease-in-out infinite;
   position: relative;
   text-align: center;

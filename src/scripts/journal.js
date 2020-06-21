@@ -1,23 +1,43 @@
-/*
-    This function will convert a single journal object to an
-    HTML representation and return it
-*/
-const journalEntryConverter = (journalObject) => {
+console.log("You are Wonderfully Special!!") 
 
-    const journalHTMLRepresentation = `<section class="journal">
-       
-        <div class="journal__details">
-            <ul>
-                <li>Date: ${journalObject.date}</li>
-                <li>Concepts: ${journalObject.concepts}</li>
-                <li>Content: ${journalObject.content}</li>
-                <li>Mood: ${journalObject.mood}</li>
-                
-            </ul>
-        </div>
-    </section>`
+import API from "./Data.js";
+import journalEntryList from "./EntryList.js";
 
-    return journalHTMLRepresentation
+import createJournalEntry from "./createEntry.js";
+// import renderJournalEntries from "./EntryList.js";
 
-}
- 
+API.getJournalEntries().then((response) => journalEntryList(response));
+
+
+
+
+const submitButton = document.querySelector("#save")
+
+let Date;
+let ConceptsCovered;
+let content;
+let mood;
+
+submitButton.addEventListener("click", e => {
+  console.log(e, "event")
+
+
+  Date = document.querySelector("#Date").value,
+    ConceptsCovered = document.querySelector("#ConceptsCovered").value,
+    content = document.querySelector("#journalEntry").value,
+    mood = document.querySelector("#Mood").value
+    
+  if (Date === "" || ConceptsCovered === "" || content === "" || mood === "") {
+    alert("Please Insert Journal Entry Data Before Submitting")
+
+  } else {
+    const newEntry = createJournalEntry(Date, ConceptsCovered, content, mood);
+    API.saveJournalEntry(newEntry)
+      .then((response) => {
+        API.getJournalEntries().then((response) => journalEntryList(response));
+        
+      })
+    }
+})   
+
+

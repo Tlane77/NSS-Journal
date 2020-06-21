@@ -13,11 +13,15 @@
       href="./styles/main.css"
     />
   </head>
+  <!-- <main>
+		<div id="entryContainer"> -->
+			
+		
 
   <body>
     <h1>Daily Journal</h1>
     <!-- W3School ACTION FORM -->
-    <form action="">
+    <form>
       <fieldset>
         <div class="block">
           <!-- W3S Calender Block (Date & Time) -->
@@ -33,33 +37,40 @@
         <article class="entryLog">
           <div class="block">
             <label for="JournalEntry"> Journal Entry</label>
+            
           </div>
-          <textarea name="journalEntry" cols="100" rows="20">
-Daily Entry</textarea
-          >
+          <textarea name="journalEntry" id="journalEntry" cols="100" rows="20">
+Daily Entry</textarea>
+
           <br />
         </article>
         <div class="block">
           <br />
           <label for="Mood">Today's Mood</label>
-          <select name="Mood">
+          <select name="Mood" id="Mood">
             <option value="Happy"> Happy</option>
             <option value="Driven"> Driven</option>
             <option value="Perplexed"> Perplexed</option>
             <option value="Excited"> Excited </option>
             <option value="Magnificient"> Magnificient </option>
-          </select>
+          </select><br />
           <div class="block">
             <br />
-            <button>Record Journal Entry</button>
+            <div class="submitEntryButton"></div>
+          <input type="button" id="save" value="Record Journal Entry">
           </div>
-        </div>
+          </div>
       </fieldset>
     </form>
+<!-- </div>
+	</main> -->
+    
     <article class="entryLog"></article>
 
-    <script src="scripts/journal.js"></script>
-    <script src="scripts/journalData.js"></script>
-    <script src="scripts/journalList.js"></script>
+    <!-- <script type="module" src="scripts/journal.js"></script>
+    <script type="module" src="scripts/Data.js"></script>
+    <script type="module" src="scripts/journalList.js"></script>
+    <script type="module" src="scripts/entryComponent.js"></script> -->
+    <script type="module" src="scripts/journal.js"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "journalEntry": [
+  "entries": [
     {
       "id": "1",
       "date": "05-22-20",
@@ -7,7 +7,6 @@
       "content": "Info Covered",
       "mood": "Marvelous"
     },
-
     {
       "id": "2",
       "date": "05-23-20",
@@ -15,15 +14,13 @@
       "content": "Applying Values to a Function",
       "mood": "Curious"
     },
-
     {
       "id": "3",
       "date": "05-24-20",
       "concepts": "Function Concepts",
-      "content": "Bowing our ",
-      "mood": "Mood of the Day"
+      "content": "Functions inside of Objects ",
+      "mood": "Excited"
     },
-
     {
       "id": "4",
       "date": "05-25-20",
@@ -31,37 +28,124 @@
       "content": "How to push yourself",
       "mood": "Perplexed"
     },
-
     {
       "id": "5",
       "date": "05-26-20",
       "concepts": "Concepts Covered",
-      "content": "Info Covered",
-      "mood": "Mood of the Day"
+      "content": "Info Covered on how to create multiple arrays",
+      "mood": "Curious"
     },
-
     {
       "id": "6",
       "date": "05-27-20",
       "concepts": "Concepts Covered",
-      "content": "Info Covered",
+      "content": "Info Covered HTML and CSS",
       "mood": "Mood of the Day"
     },
-
     {
       "id": "7",
       "date": "05-28-20",
       "concepts": "Concepts Covered",
-      "content": "Info Covered",
-      "mood": "Mood of the Day"
+      "content": "Info Covered, javascript",
+      "mood": "Perplexed"
     },
-
     {
       "id": "8",
       "date": "05-29-20",
       "concepts": "Concepts Covered",
       "content": "Info Covered",
-      "mood": "Mood of the Day"
+      "mood": "Driven"
+    },
+    {
+      "id": "9",
+      "date": "06-01-20",
+      "concepts": "Objects",
+      "content": "array's",
+      "mood": "Perplexed"
+    },
+    {
+      "id": "10",
+      "date": "06-02-20",
+      "concepts": "Objects",
+      "content": "array's",
+      "mood": "Curious"
+    },
+    {
+      "id": "11",
+      "date": "06-03-20",
+      "concepts": "Objects",
+      "content": "more array's",
+      "mood": "Perplexed"
+    },
+    {
+      "id": "12",
+      "date": "06-04-20",
+      "concepts": "Objects",
+      "content": "array's inside of objects",
+      "mood": "Curious"
+    },
+    {
+      "id": "13",
+      "date": "06-05-20",
+      "concepts": "Modals",
+      "content": "working as a team",
+      "mood": "Excited"
+    },
+    {
+      "id": "14",
+      "date": "06-08-20",
+      "concepts": "Push and Pull from Github",
+      "content": "array's",
+      "mood": "Driven"
+    },
+    {
+      "id": "15",
+      "date": "06-09-20",
+      "concepts": "Github",
+      "content": "more repositories and extra exercises",
+      "mood": "Driven"
+    },
+    {
+      "id": "16",
+      "date": "06-10-20",
+      "concepts": "What do I really know",
+      "content": "Have a learned anything in four weeks?",
+      "mood": "Perplexed"
+    },
+    {
+      "id": "17",
+      "date": "06-13-20",
+      "concepts": "Teamwork overview",
+      "content": "Journal Entries Chapter 3",
+      "mood": "Perplexed"
+    },
+    {
+      "id": "18",
+      "date": "06-14-20",
+      "concepts": "Test Overview",
+      "content": "Journal Entries Chapter 3",
+      "mood": "Driven"
+    },
+    {
+      "id": "19",
+      "date": "06-15-20",
+      "concepts": "Overview",
+      "content": "Modules Chapter 3/Journal Database",
+      "mood": "Marvelous"
+    },
+    {
+      "date": "2020-06-19",
+      "concepts": "Rabbits",
+      "content": "Rabbits all over the place",
+      "mood": "Perplexed",
+      "id": "M71YHUe"
+    },
+    {
+      "date": "2020-06-19",
+      "concepts": "The Delete Button",
+      "content": "Learning more C.R.U.D Steps",
+      "mood": "Perplexed",
+      "id": "4yojjrR"
     }
   ]
 }
