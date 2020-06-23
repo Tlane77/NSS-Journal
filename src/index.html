@@ -13,20 +13,23 @@
       href="./styles/main.css"
     />
   </head>
-  <!-- <main>
-		<div id="entryContainer"> -->
+     <!-- <main> -->
+		<!-- <div id="entryContainer"></div> -->
 			
 		
 
   <body>
+    <div class="title">
     <h1>Daily Journal</h1>
+    </div>
     <!-- W3School ACTION FORM -->
     <form>
+      <input type="hidden" id="hidden" value=""/>
       <fieldset>
         <div class="block">
           <!-- W3S Calender Block (Date & Time) -->
           <label for="Date">Date of Entry</label>
-          <input type="date" name="Date" id="Date" />
+          <input type="date" name="Date" id="Date" class="date" />
         </div>
         <br />
         <div class="block">
@@ -34,8 +37,7 @@
           <input type="text" name="ConceptsCovered" id="ConceptsCovered" />
         </div>
         <br />
-        <article class="entryLog">
-          <div class="block">
+        <div class="block">
             <label for="JournalEntry"> Journal Entry</label>
             
           </div>
@@ -43,7 +45,6 @@
 Daily Entry</textarea>
 
           <br />
-        </article>
         <div class="block">
           <br />
           <label for="Mood">Today's Mood</label>
@@ -56,21 +57,18 @@ Daily Entry</textarea>
           </select><br />
           <div class="block">
             <br />
-            <div class="submitEntryButton"></div>
-          <input type="button" id="save" value="Record Journal Entry">
-          </div>
+            
+          
           </div>
       </fieldset>
     </form>
-<!-- </div>
-	</main> -->
+    <div class="submitEntryButton"></div>
+          <input type="button" id="save" value="Record Journal Entry">
+          </div>
     
     <article class="entryLog"></article>
 
-    <!-- <script type="module" src="scripts/journal.js"></script>
-    <script type="module" src="scripts/Data.js"></script>
-    <script type="module" src="scripts/journalList.js"></script>
-    <script type="module" src="scripts/entryComponent.js"></script> -->
+   
     <script type="module" src="scripts/journal.js"></script>
   </body>
 </html>

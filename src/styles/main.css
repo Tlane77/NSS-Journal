@@ -1,4 +1,4 @@
-body{
+body {
   background:radial-gradient(#6f2d9c, #391353);
   background-size:4px 4px;
   perspective: 400px;
@@ -7,11 +7,23 @@ body{
   border-style: groove;
   border-color: darkcyan;
 }
+main {
+	display: flex;
+}
 
-/* .entryCard {
+.entryContainer {
+  border-style: groove;
+}
+
+title {
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.entryCard {
 	border: .2em solid black;
-} */
-.dropholder{
+}
+.dropholder {
   width: 322px;
   height: 60px;
   margin:100px auto;
@@ -48,13 +60,13 @@ p{
   float: left;
   line-height:60px;
 }
-.dropdown > p{
+.dropdown > p {
   font-size:16px;
 }
-.dropdown, .dropholder{
+.dropdown, .dropholder {
   background:linear-gradient(#da4df8 ,#9b0db9);
 }
-.dropdown{
+.dropdown {
   margin-left:20px;
   float: left;
   width: 208px;
@@ -65,10 +77,10 @@ p{
   border-left:1px solid burlywood;
   position: relative;
 }
-.dropdown:hover{
+.dropdown:hover {
   background:linear-gradient(white ,lightblue);
 }
-.dropdown:after{
+.dropdown:after {
   content:"▾";
   font-size: 18px;
   position: absolute;
@@ -77,7 +89,7 @@ p{
   display: block;
 }
 
-.menu{
+.menu {
   position: absolute;
   right:0;
   top:70px;
@@ -94,13 +106,13 @@ p{
   transform:rotateY(180deg) rotateX(5deg) translateY(100px);
   backface-visibility: hidden;
 }
-.menu li{
+.menu li {
   padding: 10px 10px;
   border-bottom:1px dotted #fff;
   color:#e8f8ff; 
   transition:all 0.3s;
 }
-.menu li:hover{
+.menu li:hover {
   background:#61ccfd;
   padding-left:20px;
 }
@@ -108,16 +120,16 @@ p{
   border:none;
 }
 
-.showMenu{
+.showMenu {
    opacity:1;
   transform:rotateX(0deg) translateY(0px);
 }
-li > i{
+li > i {
   float: left;
   padding-top: 3px;
   padding-right: 8px;
 }
-p > i{
+p > i {
  position: relative;
  top:3px;
 }
@@ -130,12 +142,12 @@ input.btn {
 input.btn:active {
     background-color: antiquewhite;
 }
-@keyframes move{
+@keyframes move {
   0%, 100%{transform:translateY(-10px);}
   50%{transform:translateY(0);}
 }
 
-@keyframes moveShadow{
+@keyframes moveShadow {
   0%,100%{transform:translateY(10px);opacity:0.4;}
   50%{transform:translateY(0);opacity:1;}
 }
