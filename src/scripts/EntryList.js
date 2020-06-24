@@ -31,7 +31,7 @@ const journalEntryList = (journalEntries) => {
     const journalArticleElement = document.querySelector(".entryLog");
     journalArticleElement.innerHTML += journalHTML;
   }
-  //Begininning of Delete Button
+  //Beginning of Delete Button
 const deleteButton = document.getElementsByName("delete-button");
 deleteButton.forEach((button) => {
   button.addEventListener("click", (clickEvent) => {

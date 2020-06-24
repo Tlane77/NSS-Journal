@@ -1,24 +1,73 @@
 body {
+  border-width: 5em;
   background:radial-gradient(#6f2d9c, #391353);
   background-size:4px 4px;
   perspective: 400px;
   width: 100%;
   height: auto;
+  border-color: black;
+  border-radius: 4em;
   border-style: groove;
-  border-color: darkcyan;
+  text-align: center;
+  list-style-type: none;
+
 }
-main {
-	display: flex;
+.block {
+  padding: 3.5em;
+  border-radius: 3em round;
+  font-size: 24px;
+  border-width: 5em;
+  border-style: groove;
+  background:linear-gradient(#4dc2f8 ,#0d82b9);
+  list-style-type: none;
 }
 
-.entryContainer {
+button{
+  background:radial-gradient(#4dc2f8 ,#0d82b9);
+  width: 5em;
+
+}
+/* .text{
+  border-width: 5em;
+  border-color: #0d82b9;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+.entryLog {
   border-style: groove;
+  padding: 3.5em;
+  border-width: 5em;
+  list-style-type: none;
+  list-style-type: none;
 }
 
-title {
+
+
+
+.title {
+  padding-left: 2em;
   font-family: cursive;
   font-weight: bolder;
+  border-style: groove;
+  align-content: flex-start;
+  border-width: 2em;
 }
+
+.submitEntryButton {
+  padding: 2em;
+  font-size: 18px;
+  font-weight: bolder;
+  list-style-type: none;
+}
+
+.journalEntry{
+  padding: 2em;
+  border-style: groove;
+  list-style-type: none;
+}
+
 
 .entryCard {
 	border: .2em solid black;
@@ -136,7 +185,7 @@ p > i {
 i{
   opacity: 0.6;
 }
-input.btn {
+.btn {
     background-color: pink;
 }
 input.btn:active {

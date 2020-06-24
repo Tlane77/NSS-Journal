@@ -3,9 +3,37 @@
     {
       "date": "2020-06-23",
       "concepts": "Happy Thoughts",
-      "content": "Learning Documentation with my peeps",
+      "content": "Learning Documentation with my peeps and loving it!",
       "mood": "Magnificient",
       "id": 1
+    },
+    {
+      "date": "2020-06-23",
+      "concepts": "How to Succeed",
+      "content": "Be Tenacious!!",
+      "mood": "Magnificient",
+      "id": 2
+    },
+    {
+      "date": "2020-06-23",
+      "concepts": "Look at All these Entries",
+      "content": "CSS Variables",
+      "mood": "Magnificient",
+      "id": 3
+    },
+    {
+      "date": "2020-06-23",
+      "concepts": "CSS Variables",
+      "content": "Today has been a wonderfully awesome day! We are all called to help our friends in need! I know I can count on you like 4-3-2\n\n\n",
+      "mood": "Magnificient",
+      "id": 4
+    },
+    {
+      "date": "2020-06-22",
+      "concepts": "How Loud Can We Roar?",
+      "content": "I went from Zero to my Own Hero!!\n\n\n",
+      "mood": "Driven",
+      "id": 5
     }
   ]
 }
